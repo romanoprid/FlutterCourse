@@ -1,8 +1,15 @@
 # FlutterCourse
 It is the repsitory from mobile development subject
 Here you can see screens from Part 1:
-![image](https://user-images.githubusercontent.com/56874600/133886189-03f32615-8218-4ad3-acb5-84cdf5d9e1ed.png)
-![image](https://user-images.githubusercontent.com/56874600/133886213-1aa6fb8f-08f0-40ed-8691-1be8ccb8b018.png)
-![image](https://user-images.githubusercontent.com/56874600/133886217-f6402013-0c35-4e7b-910c-6c044f1b5d0e.png)
-![image](https://user-images.githubusercontent.com/56874600/133886219-02b09ae3-22b5-4b1f-b3d0-31c32492c111.png)
+  - Hello World
+![image](https://user-images.githubusercontent.com/56874600/133886250-08d76635-ee0b-4282-82f4-7e32cd980041.png)
+
+  - Randomly generated word
+![image](https://user-images.githubusercontent.com/56874600/133886245-8ac9457a-6969-4417-a518-7c8493bbf88d.png)
+
+  - Randomly generated word with different size
+![image](https://user-images.githubusercontent.com/56874600/133886240-54bed9d7-ef3e-4b03-ac8b-de9f0f1b988e.png)
+
+  - Video of randomly generated infinity word list:
+https://user-images.githubusercontent.com/56874600/133886312-9e54f62c-b4dc-4247-9a67-1a0af0a6c04c.mp4
 
