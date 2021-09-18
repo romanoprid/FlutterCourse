@@ -1,6 +1,6 @@
 {
-    "name": "hometask_first",
-    "short_name": "hometask_first",
+    "name": "hometask_flutter_v2",
+    "short_name": "hometask_flutter_v2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
