@@ -1,5 +1,6 @@
 # FlutterCourse
 It is the repsitory from mobile development subject
+
 Here you can see screens from Part 1:
   
   - Hello World
