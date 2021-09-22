@@ -42,8 +42,8 @@ class _RandomWordsState extends State<RandomWords> {
         style: _biggerFont,
       ),
       trailing: Icon(
-        alreadySaved ? Icons.favorite : Icons.favorite_border,
-        color: alreadySaved ? Colors.red : null,
+        alreadySaved ? Icons.done : Icons.attach_money,
+        color: alreadySaved ? null : Colors.green,
         semanticLabel: alreadySaved ? 'Remove from saved' : 'Save',
       ),
       onTap: () {
@@ -65,7 +65,7 @@ class _RandomWordsState extends State<RandomWords> {
         title: const Text('Startup Name Generator'),
         actions: [
           IconButton(
-            icon: const Icon(Icons.list),
+            icon: const Icon(Icons.shopping_basket),
             onPressed: _pushSaved,
             tooltip: 'Saved Suggestions',
           ),
@@ -99,11 +99,38 @@ class _RandomWordsState extends State<RandomWords> {
           return Scaffold(
             appBar: AppBar(
               title: const Text('Saved Suggestions'),
+              actions: [
+                IconButton(
+                  icon: const Icon(Icons.info),
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute<void>(builder: (context) => Info()));
+                  },
+                  tooltip: 'Saved Suggestions',
+                ),
+              ],
             ),
             body: ListView(children: divided),
           );
         },
       ),
+    );
+  }
+}
+
+class Info extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Info"),
+      ),
+      body: const Center(
+          child: Text(
+        "Here you can add your words to the cart. \nYes!!! You can buy them. \n The future is now, wake up",
+        style: TextStyle(
+            fontSize: 14, color: Colors.black, fontWeight: FontWeight.normal),
+      )),
     );
   }
 }
