@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hometask_flutter_v2">
+    package="com.example.hometask_v_3">
    <application
-        android:label="hometask_flutter_v2"
+        android:label="hometask_v_3"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
